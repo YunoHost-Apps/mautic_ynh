@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Mautic para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/mautic.svg)](https://dash.yunohost.org/appci/app/mautic) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/mautic.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/mautic.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/mautic)](https://ci-apps.yunohost.org/ci/apps/mautic/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/mautic)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/mautic)
 
 [![Instalar Mautic con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mautic)
 
@@ -20,7 +22,7 @@ Marketing Automation Software
 
 With Mautic, website visitors can be tracked and converted into identified contacts using forms. Anonymous and identified contacts can be divided into segments and assigned to campaigns - either on the basis of segments or forms. These campaigns contain workflows to provide the contacts with further information and advertising material or to organize the contacts
 
-**Versión proporcionada:** 5.1.0~ynh1
+**Versión proporcionada:** 5.2.0~ynh1
 
 **Demo:** <https://www.mautic.org/demo>
 

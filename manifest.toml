@@ -5,7 +5,7 @@ name = "Mautic"
 description.en = "Marketing Automation Software"
 description.fr = "Logiciel d'automatisation marketing"
 
-version = "5.1.0~ynh1"
+version = "5.2.1~ynh1"
 
 maintainers = []
 
@@ -41,10 +41,12 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/mautic/mautic/releases/download/5.1.0/5.1.0.zip"
-        sha256 = "354786dcd68bd080452b47b6992411690079a12235ba9bda93b824b63f4f3a28"
+        url = "https://github.com/mautic/mautic/releases/download/5.2.1/5.2.1.zip"
+        sha256 = "9bfbbee4203084260a9fbc65bd65750dc4fef75b6314af26f96a72e5a9d55143"
         in_subdir = false
+        
         autoupdate.strategy = "latest_github_release"
+        autoupdate.asset = "\\d+(\\.\\d+)+\\.zip"
 
     [resources.system_user]
     allow_email = true
@@ -55,7 +57,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server, php8.0-imap, php8.0-gmp, php8.0-curl, php8.0-intl, php8.0-mbstring, php8.0-xmlrpc, php8.0-mysql, php8.0-bcmath, php8.0-gd, php8.0-xml, php8.0-cli, php8.0-zip"
+    packages = "mariadb-server, php8.1-imap, php8.1-gmp, php8.1-curl, php8.1-intl, php8.1-mbstring, php8.1-xmlrpc, php8.1-mysql, php8.1-bcmath, php8.1-gd, php8.1-xml, php8.1-cli, php8.1-zip"
 
     [resources.database]
     type = "mysql"

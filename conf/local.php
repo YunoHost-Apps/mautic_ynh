@@ -1,25 +1,23 @@
-db_driver=pdo_mysql
-db_host=localhost
-db_port=3306
-db_name=__DB_NAME__
-db_user=__DB_USER__
-db_password=__DB_PWD__
-db_table_prefix=bak_
-db_backup_tables=true
-db_backup_prefix=bak_
-admin_firstname=ADMIN_FIRSTNAME        Admin first name.
-admin_lastname=ADMIN_LASTNAME          Admin last name.
-admin_username=__ADMIN__               Admin username.
-admin_email=__EMAIL__                  Admin email.
-admin_password=__PASSWORD__            Admin user.
-mailer_from_name=Mautic                From name for email sent from Mautic.
-mailer_from_email=__APP__@__DOMAIN__   From email sent from Mautic.
-mailer_transport[=MAILER_TRANSPORT]    Mail transport.
-mailer_host=127.0.0.1                  SMTP host.
-mailer_port=25                         SMTP port.
-mailer_user=__APP__                    SMTP username.
-mailer_password=__MAIL_PWD__           SMTP password.
-mailer_encryption[=MAILER_ENCRYPTION]  SMTP encryption (null|tls|ssl).
-mailer_auth_mode[=MAILER_AUTH_MODE]    SMTP auth mode (null|plain|login|cram-md5).
-mailer_spool_type=MAILER_SPOOL_TYPE    Spool mode (file|memory).
-mailer_spool_path=MAILER_SPOOL_PATH    Spool path.
+<?php
+// Example local.php to test install (to adapt of course)
+$parameters = array(
+  // Do not set db_driver and mailer_from_name as they are used to assume Mautic is installed
+  'db_host' => 'localhost',
+  'db_table_prefix' => null,
+  'db_port' => 3306,
+  'db_name' => '__DB_NAME__',
+  'db_user' => '__DB_USER__',
+  'db_password' => '__DB_PWD__',
+  'db_backup_tables' => false,
+  'db_backup_prefix' => 'bak_',
+  'admin_email' => '__EMAIL__',
+  'admin_password' => '__PASSWORD__',
+  'mailer_transport' => smtp,
+  'mailer_host' => 127.0.0.1 ,
+  'mailer_port' => 25,
+  'mailer_user' => __APP__,
+  'mailer_password' => __MAIL_PWD__ ,
+  'mailer_api_key' => null,
+  'mailer_encryption' => null,
+  'mailer_auth_mode' => null,
+);

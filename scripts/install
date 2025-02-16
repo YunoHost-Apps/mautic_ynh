@@ -27,16 +27,6 @@ chmod -R g+w "$install_dir/media/images/"
 chmod -R g+w "$install_dir/translations/"
 
 #=================================================
-# APP INITIAL CONFIGURATION
-#=================================================
-ynh_script_progression "Adding $app's configuration files..."
-
-#ynh_config_add --template="local.php" --destination="$install_dir/config/local.php"
-
-#chmod 400 "$install_dir/config/local.php"
-#chown "$app:$app" "$install_dir/config/local.php"
-
-#=================================================
 # SYSTEM CONFIGURATION
 #=================================================
 ynh_script_progression --message="Adding system configurations related to $app..." --weight=1

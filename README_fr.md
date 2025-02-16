@@ -18,9 +18,8 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-Marketing Automation Software
+Avec Mautic, les visiteurs d'un site web peuvent être suivis et convertis en contacts identifiés à l'aide de formulaires. Les contacts anonymes et identifiés peuvent être divisés en segments et affectés à des campagnes - sur la base de segments ou de formulaires. Ces campagnes contiennent des flux de travail permettant de fournir aux contacts des informations complémentaires et du matériel publicitaire ou d'organiser les contacts.
 
-With Mautic, website visitors can be tracked and converted into identified contacts using forms. Anonymous and identified contacts can be divided into segments and assigned to campaigns - either on the basis of segments or forms. These campaigns contain workflows to provide the contacts with further information and advertising material or to organize the contacts
 
 **Version incluse :** 5.2.2~ynh1
 

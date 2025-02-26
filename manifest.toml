@@ -1,3 +1,5 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
 packaging_format = 2
 
 id = "mautic"
@@ -47,13 +49,12 @@ ram.runtime = "50M"
     type = "password"
 
 [resources]
-        [resources.sources.main]
-        url = "https://github.com/mautic/mautic/releases/download/5.2.3/5.2.3.zip"
-        sha256 = "c6acb77e9c362ce40a4269bc904ae92127119525f9c6b1fa1fab6d3c39681298"
-        in_subdir = false
-        
-        autoupdate.strategy = "latest_github_release"
-        autoupdate.asset = "\\d+(\\.\\d+)+\\.zip"
+    [resources.sources.main]
+    url = "https://github.com/mautic/mautic/releases/download/5.2.3/5.2.3.zip"
+    sha256 = "c6acb77e9c362ce40a4269bc904ae92127119525f9c6b1fa1fab6d3c39681298"
+    in_subdir = false
+    autoupdate.strategy = "latest_github_release"
+    autoupdate.asset = "\\d+(\\.\\d+)+\\.zip"
 
     [resources.system_user]
     allow_email = true

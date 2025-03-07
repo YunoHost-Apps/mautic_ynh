@@ -38,7 +38,7 @@ ynh_config_add --template="cron" --destination="/etc/cron.d/$app"
 ynh_script_progression "Installing $app..."
 
 pushd "$install_dir"
-	ynh_exec_as_app php${php_version} bin/console mautic:install https:$domain \
+	ynh_exec_as $app php${phpversion} bin/console mautic:install $domain \
 	--db_driver="pdo_mysql" --db_host="localhost" --db_port="3306" --db_name="$db_name" --db_user="$db_user" --db_password="$db_pwd" --db_backup_tables="false" \
 	--admin_email="$email" --admin_password="$password" --admin_username="$admin"
 popd

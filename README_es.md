@@ -3,7 +3,7 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# Mautic para Yunohost
+# Mautic para YunoHost
 
 [![Nivel de integración](https://apps.yunohost.org/badge/integration/mautic)](https://ci-apps.yunohost.org/ci/apps/mautic/)
 ![Estado funcional](https://apps.yunohost.org/badge/state/mautic)
@@ -21,7 +21,7 @@ No se debe editar a mano.
 With Mautic, website visitors can be tracked and converted into identified contacts using forms. Anonymous and identified contacts can be divided into segments and assigned to campaigns - either on the basis of segments or forms. These campaigns contain workflows to provide the contacts with further information and advertising material or to organize the contacts.
 
 
-**Versión actual:** 5.2.3~ynh1
+**Versión actual:** 5.2.4~ynh1
 
 **Demo:** <https://www.mautic.org/demo>
 

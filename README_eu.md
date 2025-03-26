@@ -21,7 +21,7 @@ EZ editatu eskuz.
 With Mautic, website visitors can be tracked and converted into identified contacts using forms. Anonymous and identified contacts can be divided into segments and assigned to campaigns - either on the basis of segments or forms. These campaigns contain workflows to provide the contacts with further information and advertising material or to organize the contacts.
 
 
-**Paketatutako bertsioa:** 5.2.3~ynh1
+**Paketatutako bertsioa:** 6.0.0~ynh1
 
 **Demoa:** <https://www.mautic.org/demo>
 
@@ -41,7 +41,7 @@ With Mautic, website visitors can be tracked and converted into identified conta
 
 Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/mautic_ynh/tree/testing).
 
-`testing` abarra probatzeko, ondorengoa egin:
+`testing` abarra probatzeko, honakoa egin:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/mautic_ynh/tree/testing --debug

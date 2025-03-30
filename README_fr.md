@@ -21,7 +21,7 @@ Il NE doit PAS être modifié à la main.
 Avec Mautic, les visiteurs d'un site web peuvent être suivis et convertis en contacts identifiés à l'aide de formulaires. Les contacts anonymes et identifiés peuvent être divisés en segments et affectés à des campagnes - sur la base de segments ou de formulaires. Ces campagnes contiennent des flux de travail permettant de fournir aux contacts des informations complémentaires et du matériel publicitaire ou d'organiser les contacts.
 
 
-**Version incluse :** 5.2.3~ynh1
+**Version incluse :** 5.2.4~ynh1
 
 **Démo :** <https://www.mautic.org/demo>
 

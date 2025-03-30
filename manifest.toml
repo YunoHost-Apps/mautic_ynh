@@ -7,7 +7,7 @@ name = "Mautic"
 description.en = "Marketing Automation Software"
 description.fr = "Logiciel d'automatisation marketing"
 
-version = "5.2.3~ynh1"
+version = "5.2.4~ynh1"
 
 maintainers = []
 
@@ -21,7 +21,7 @@ code = "https://github.com/mautic/mautic"
 [integration]
 yunohost = ">= 11.2"
 architectures = "all"
-multi_instance = true
+multi_instance = false
 
 ldap = false
 sso = false
@@ -50,8 +50,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/mautic/mautic/releases/download/5.2.3/5.2.3.zip"
-    sha256 = "c6acb77e9c362ce40a4269bc904ae92127119525f9c6b1fa1fab6d3c39681298"
+    url = "https://github.com/mautic/mautic/releases/download/5.2.4/5.2.4.zip"
+    sha256 = "23efe00ba59092e25d5009d97f5de8991117ed5ce3a41a06cf86aefb31590d97"
     in_subdir = false
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset = "\\d+(\\.\\d+)+\\.zip"
@@ -65,7 +65,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server, php8.3-imap, php8.3-gmp, php8.3-curl, php8.3-intl, php8.3-mbstring, php8.3-xmlrpc, php8.3-mysql, php8.3-bcmath, php8.3-gd, php8.3-xml, php8.3-cli, php8.3-zip"
+    packages = "mariadb-server, php8.3-redis, php8.3-imap, php8.3-gmp, php8.3-curl, php8.3-intl, php8.3-mbstring, php8.3-xmlrpc, php8.3-mysql, php8.3-bcmath, php8.3-gd, php8.3-xml, php8.3-cli, php8.3-zip"
 
     [resources.database]
     type = "mysql"

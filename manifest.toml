@@ -7,7 +7,7 @@ name = "Mautic"
 description.en = "Marketing Automation Software"
 description.fr = "Logiciel d'automatisation marketing"
 
-version = "5.2.3~ynh1"
+version = "6.0.0~ynh2"
 
 maintainers = []
 
@@ -51,8 +51,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/mautic/mautic/releases/download/5.2.3/5.2.3.zip"
-    sha256 = "c6acb77e9c362ce40a4269bc904ae92127119525f9c6b1fa1fab6d3c39681298"
+    url = "https://github.com/mautic/mautic/releases/download/6.0.0/6.0.0.zip"
+    sha256 = "ec86e43ad32b249119f89f56cd0ba4d04ba5a96ca226ceee3942f6564ea02632"
     in_subdir = false
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset = "\\d+(\\.\\d+)+\\.zip"

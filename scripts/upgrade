@@ -35,6 +35,15 @@ ynh_add_fpm_config
 ynh_add_nginx_config
 
 #=================================================
+# FINISHING INSTALL
+#=================================================
+ynh_script_progression --message="Cleaning $app cach..." --weight=1
+
+pushd "$install_dir"
+	ynh_exec_as $app php${phpversion} bin/console mautic:update:apply --finish
+popd
+
+#=================================================
 # END OF SCRIPT
 #=================================================
 
